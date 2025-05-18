@@ -1,0 +1,90 @@
+.image-uploader-container {
+  margin-bottom: 30px;
+}
+
+.dropzone {
+  border: 2px dashed #cccccc;
+  border-radius: 10px;
+  padding: 40px 20px;
+  text-align: center;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  background-color: #f9f9f9;
+}
+
+.dropzone:hover {
+  border-color: #4a90e2;
+  background-color: #f0f8ff;
+}
+
+.dropzone.active {
+  border-color: #4a90e2;
+  background-color: #e6f2ff;
+}
+
+.dropzone.reject {
+  border-color: #e74c3c;
+  background-color: #ffeaea;
+}
+
+.dropzone-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+}
+
+.dropzone-content svg {
+  color: #666;
+  margin-bottom: 10px;
+}
+
+.dropzone-content p {
+  margin: 0;
+  font-size: 1.1rem;
+  color: #555;
+}
+
+.error-text {
+  color: #e74c3c !important;
+  font-weight: bold;
+}
+
+.select-button {
+  background-color: #4a90e2;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.2s;
+  margin-top: 10px;
+}
+
+.select-button:hover {
+  background-color: #3a7bc8;
+}
+
+.upload-instructions {
+  margin-top: 20px;
+  text-align: left;
+  background-color: white;
+  padding: 15px;
+  border-radius: 8px;
+  border: 1px solid #eee;
+}
+
+.upload-instructions h3 {
+  margin-top: 0;
+  color: #333;
+}
+
+.upload-instructions ul {
+  padding-left: 20px;
+}
+
+.upload-instructions li {
+  margin-bottom: 5px;
+  color: #555;
+}
